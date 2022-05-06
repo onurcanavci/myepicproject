@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+myepicproject = "H8RpSmXKNsma4EEmXeFaweEs4DaeJSGg41yFRQ1Q5LDH"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/onurcan.avci/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
